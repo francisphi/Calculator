@@ -4,10 +4,8 @@
          let login=document.getElementById("email").value;
                let password=document.getElementById("password").value;
 
-string=" ";
-
                if((login==="admin") && (password==="admin")){
-              window.location.href="index.html";
+              window.location.href="calculator.html";
                  
                   
                }
