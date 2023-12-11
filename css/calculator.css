@@ -15,7 +15,7 @@ body{
 }
 
 .calculator{
-    padding: 15px;
+    padding: 8px;
     box-shadow: 0 0 15px #000;
     border: 2px solid rgb(116,114,114);
     border-radius: 15px;
@@ -29,7 +29,7 @@ body{
     margin: 10px;
     background: transparent;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
     text-align: right;
     cursor: pointer;
 }
@@ -38,9 +38,9 @@ input::placeholder{
     color: #fff;
 }
 
-button , .converter{
-    width: 70px;
-    height: 70px;
+button{
+    width: 50px;
+    height: 50px;
     margin: 10px;
     background: transparent;
     color: #fff;
@@ -62,16 +62,39 @@ button:active{
 .opr{
     color: yellow;
     background: #1e1919;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #eqBtn{
     background: orangered;
     font-weight: 900;
 }
-
-.converter{
+a{
+    width: 200px;
+    height: 80px;
+    background: transparent;
+    color: white;
+    font-size: 29px;
+    font-weight: 400;
+    padding:5px;
+    margin: 5px;
+    border: 0;
+    border-radius:10%;
+    box-shadow: -5px -6px 15px black;
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+    cursor: pointer;
     text-decoration:none;
-    text-align:right;
-    
+}
+.red{
+    color:red;
+}
+.letter{
+    color: red;
+    background: #1e1919;
+    font-weight: 700;
+}
+.calculator{
+    display:block;
+    align-text: top;
 }
